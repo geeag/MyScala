@@ -1,4 +1,4 @@
-package com.class1
+package com.base.scalaClass
 
 import scala.runtime.{RichDouble, RichInt}
 import scala.math._
@@ -32,6 +32,8 @@ object Class1 {
 
 
 
+
+
   //main方法
   def main(args:Array[String]):Unit ={
     println(123)
@@ -39,5 +41,6 @@ object Class1 {
     println(sqrt(2))
     println(myMin)
     println(myPow)
+    println("12345"(4));
   }
 }
