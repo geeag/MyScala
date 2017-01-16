@@ -1,8 +1,6 @@
 package com.base.scalaClass
 
-import java.net.MalformedURLException
 
-import scala.sys.process.processInternal.{IOException, URL}
 import scala.util.control.Breaks._
 
 /**
@@ -150,16 +148,6 @@ object Class2 {
     println(txt)
   }
 
-  //异常
-  def myCaught(): Unit ={
-    val url = "http://horstmann.com/fred-tiny.gif"
-    try{
-//      process(new URL(url))
-    } catch{
-      case _: MalformedURLException => println("Bad URL:" + url)
-      case ex: IOException => ex.printStackTrace()
-    }
-  }
 
   def main(args: Array[String]): Unit = {
     //    test()
