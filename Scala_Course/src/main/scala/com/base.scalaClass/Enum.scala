@@ -36,6 +36,7 @@ object Driver extends App {
   println(red, red.id)
   println(doWhat(red))
   println(doWhat2(TrafficLightColor.Yellow))
+  println("------------------------")
 
   //打印出所有枚举
   Margin.values.foreach { v => println(v,v.id)}
